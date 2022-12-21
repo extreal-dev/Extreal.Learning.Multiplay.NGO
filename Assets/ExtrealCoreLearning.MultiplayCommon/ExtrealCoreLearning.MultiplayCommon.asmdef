@@ -1,0 +1,19 @@
+{
+    "name": "ExtrealCoreLearning.MultiplayCommon",
+    "rootNamespace": "ExtrealCoreLearning.MultiplayCommon",
+    "references": [
+        "Cinemachine",
+        "Unity.InputSystem",
+        "Unity.Netcode.Runtime",
+        "Unity.Netcode.Components"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
