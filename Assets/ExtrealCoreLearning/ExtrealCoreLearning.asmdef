@@ -1,0 +1,32 @@
+{
+    "name": "ExtrealCoreLearning",
+    "rootNamespace": "ExtrealCoreLearning",
+    "references": [
+        "Unity.Collections",
+        "Cinemachine",
+        "Unity.InputSystem",
+        "Unity.Netcode.Runtime",
+        "Unity.Netcode.Components",
+        "UniTask",
+        "UniRx",
+        "VContainer",
+        "Extreal.Core.Logging",
+        "Extreal.Core.StageNavigation",
+        "Extreal.Integration.Multiplay.NGO",
+        "ExtrealCoreLearning.MultiplayCommon"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "iOS",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

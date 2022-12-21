@@ -1,0 +1,28 @@
+{
+    "name": "ExtrealCoreLearning.MultiplayServer",
+    "rootNamespace": "ExtrealCoreLearning.MultiplayServer",
+    "references": [
+        "Unity.ResourceManager",
+        "Unity.Addressables",
+        "Unity.Netcode.Runtime",
+        "Unity.Netcode.Components",
+        "UniTask",
+        "UniRx",
+        "VContainer",
+        "Extreal.Core.Logging",
+        "Extreal.Integration.Multiplay.NGO",
+        "ExtrealCoreLearning.MultiplayCommon"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "EmbeddedLinux"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
