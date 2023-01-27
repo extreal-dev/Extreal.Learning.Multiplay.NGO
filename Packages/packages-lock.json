@@ -295,6 +295,15 @@
       "dependencies": {},
       "hash": "f45424822189ebd875d864a17d7f03b72eafbff7"
     },
+    "jp.co.tis.extreal.core.common": {
+      "version": "https://github.com/extreal-dev/Extreal.Core.Common.git#1.0.0-next.1",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "jp.co.tis.extreal.core.logging": "1.0.0"
+      },
+      "hash": "90883878a1545cc366aa3ad50b469fe77bcf1f54"
+    },
     "jp.co.tis.extreal.core.logging": {
       "version": "https://github.com/extreal-dev/Extreal.Core.Logging.git#1.0.0",
       "depth": 0,
