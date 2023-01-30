@@ -1,5 +1,5 @@
-﻿using System;
-using Cysharp.Threading.Tasks;
+﻿using Cysharp.Threading.Tasks;
+using Extreal.Core.Common.System;
 using Extreal.Core.StageNavigation;
 using ExtrealCoreLearning.App;
 using UniRx;
@@ -7,7 +7,7 @@ using VContainer.Unity;
 
 namespace ExtrealCoreLearning.TitleScreen
 {
-    public class TitleScreenPresenter : IInitializable, IDisposable
+    public class TitleScreenPresenter : DisposableBase, IInitializable
     {
         private StageNavigator<StageName, SceneName> stageNavigator;
 
@@ -30,7 +30,7 @@ namespace ExtrealCoreLearning.TitleScreen
             }).AddTo(compositeDisposable);
         }
 
-        public void Dispose()
+        protected override void ReleaseManagedResources()
         {
             compositeDisposable?.Dispose();
         }

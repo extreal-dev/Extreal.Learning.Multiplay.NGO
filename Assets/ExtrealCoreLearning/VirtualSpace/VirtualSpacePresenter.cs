@@ -1,5 +1,5 @@
-﻿using System;
-using Cysharp.Threading.Tasks;
+﻿using Cysharp.Threading.Tasks;
+using Extreal.Core.Common.System;
 using Extreal.Core.StageNavigation;
 using ExtrealCoreLearning.App;
 using UniRx;
@@ -7,7 +7,7 @@ using VContainer.Unity;
 
 namespace ExtrealCoreLearning.VirtualSpace
 {
-    public class VirtualSpacePresenter : IInitializable, IDisposable
+    public class VirtualSpacePresenter : DisposableBase, IInitializable
     {
         private StageNavigator<StageName, SceneName> stageNavigator;
         private VirtualSpaceView virtualSpaceView;
@@ -29,7 +29,7 @@ namespace ExtrealCoreLearning.VirtualSpace
             }).AddTo(disposables);
         }
 
-        public void Dispose()
+        protected override void ReleaseManagedResources()
         {
             disposables.Dispose();
         }
