@@ -285,45 +285,45 @@
       "hash": "f45424822189ebd875d864a17d7f03b72eafbff7"
     },
     "jp.co.tis.extreal.core.common": {
-      "version": "https://github.com/extreal-dev/Extreal.Core.Common.git#1.1.0-next.4",
+      "version": "https://github.com/extreal-dev/Extreal.Core.Common.git#1.1.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "jp.co.tis.extreal.core.logging": "1.2.0-next.1",
+        "jp.co.tis.extreal.core.logging": "1.2.0",
         "com.cysharp.unitask": "2.3.3",
         "com.neuecc.unirx": "7.1.0"
       },
       "hash": "51e9c99f8813eefeaebfbaf4c9bb8f148e1059ea"
     },
     "jp.co.tis.extreal.core.logging": {
-      "version": "https://github.com/extreal-dev/Extreal.Core.Logging.git#1.2.0-next.1",
+      "version": "https://github.com/extreal-dev/Extreal.Core.Logging.git#1.2.0",
       "depth": 0,
       "source": "git",
       "dependencies": {},
       "hash": "b8f5ac759bf34c92f5a276c76dae3a952e14f73e"
     },
     "jp.co.tis.extreal.core.stagenavigation": {
-      "version": "https://github.com/extreal-dev/Extreal.Core.StageNavigation.git#1.2.0-next.1",
+      "version": "https://github.com/extreal-dev/Extreal.Core.StageNavigation.git#1.2.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "jp.co.tis.extreal.core.logging": "1.2.0-next.1",
-        "jp.co.tis.extreal.core.common": "1.1.0-next.4",
+        "jp.co.tis.extreal.core.logging": "1.2.0",
+        "jp.co.tis.extreal.core.common": "1.1.0",
         "com.cysharp.unitask": "2.3.3",
         "com.neuecc.unirx": "7.1.0"
       },
       "hash": "3f819c0fbe2611cb0468069e25d1dfdeb05f1a33"
     },
     "jp.co.tis.extreal.integration.multiplay.ngo": {
-      "version": "https://github.com/extreal-dev/Extreal.Integration.Multiplay.NGO.git#1.2.0-next.15",
+      "version": "https://github.com/extreal-dev/Extreal.Integration.Multiplay.NGO.git#1.2.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.netcode.gameobjects": "1.5.1",
         "com.cysharp.unitask": "2.3.3",
         "com.neuecc.unirx": "7.1.0",
-        "jp.co.tis.extreal.core.logging": "1.2.0-next.1",
-        "jp.co.tis.extreal.core.common": "1.1.0-next.4"
+        "jp.co.tis.extreal.core.logging": "1.2.0",
+        "jp.co.tis.extreal.core.common": "1.1.0"
       },
       "hash": "97e5fc34e82b07b0e877dc66c892ccbc2b632ae8"
     },
