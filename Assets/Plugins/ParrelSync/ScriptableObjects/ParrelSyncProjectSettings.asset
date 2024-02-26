@@ -9,12 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0055e687583649b9876bfffd22373fe2, type: 3}
-  m_Name: StageConfig
+  m_Script: {fileID: 11500000, guid: c0011418c9d75434988a06b6df93b283, type: 3}
+  m_Name: ParrelSyncProjectSettings
   m_EditorClassIdentifier: 
-  commonScenes: 0000000001000000
-  stages:
-  - stageName: 0
-    sceneNames: 64000000
-  - stageName: 1
-    sceneNames: 6500000002000000
+  m_OptionalSymbolicLinkFolders: []
