@@ -240,7 +240,7 @@
       "hash": "d1ef610e9fe3ad0b490cce91594449fc0af809a6"
     },
     "jp.co.tis.extreal.core.common": {
-      "version": "https://github.com/extreal-dev/Extreal.Core.Common.git#1.2.0-next.1",
+      "version": "https://github.com/extreal-dev/Extreal.Core.Common.git#1.2.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -248,7 +248,7 @@
         "com.cysharp.unitask": "2.5.0",
         "com.neuecc.unirx": "7.1.0"
       },
-      "hash": "cb2790a6e1b1c2049fad53abf95a05d7ec079495"
+      "hash": "dfb03ba2e74558f3692afca1508076564faf27e1"
     },
     "jp.co.tis.extreal.core.logging": {
       "version": "https://github.com/extreal-dev/Extreal.Core.Logging.git#1.2.0",
@@ -258,19 +258,19 @@
       "hash": "460ebea3b77ee572f81bf6217c2fbb31e7a66158"
     },
     "jp.co.tis.extreal.core.stagenavigation": {
-      "version": "https://github.com/extreal-dev/Extreal.Core.StageNavigation.git#1.3.0-next.2",
+      "version": "https://github.com/extreal-dev/Extreal.Core.StageNavigation.git#1.3.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "jp.co.tis.extreal.core.logging": "1.2.0",
-        "jp.co.tis.extreal.core.common": "1.2.0-next.1",
+        "jp.co.tis.extreal.core.common": "1.2.0",
         "com.cysharp.unitask": "2.5.0",
         "com.neuecc.unirx": "7.1.0"
       },
-      "hash": "911b32c8bc56bdddf39e23b6dfbac75b2ca088f3"
+      "hash": "9724f02689c4304b52caca7cad5812ba9594cd5c"
     },
     "jp.co.tis.extreal.integration.multiplay.ngo": {
-      "version": "https://github.com/extreal-dev/Extreal.Integration.Multiplay.NGO.git#1.3.0-next.2",
+      "version": "https://github.com/extreal-dev/Extreal.Integration.Multiplay.NGO.git#1.3.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -278,9 +278,9 @@
         "com.cysharp.unitask": "2.5.0",
         "com.neuecc.unirx": "7.1.0",
         "jp.co.tis.extreal.core.logging": "1.2.0",
-        "jp.co.tis.extreal.core.common": "1.2.0-next.1"
+        "jp.co.tis.extreal.core.common": "1.2.0"
       },
-      "hash": "06129e8706450799b733eeb2046af1420a2d5177"
+      "hash": "59eb3133aef60785cd2bbb7d35634ebbcf054f7e"
     },
     "jp.hadashikick.vcontainer": {
       "version": "1.13.0",
